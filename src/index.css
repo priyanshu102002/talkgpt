@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollable-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Optional: Specify custom scrollbar styles */
+.scrollable-container {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
